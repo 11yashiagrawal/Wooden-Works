@@ -1,0 +1,495 @@
+{
+  "Hanger Trays": [
+    {
+      "name": "Hanger Tray",
+      "size": ["12*12", "15*15"]
+    },
+    {
+      "name": "Hanger Tray",
+      "size": ["12*17*20"]
+    },
+    {
+      "name": "Hanger Tray",
+      "size": "12*17*18"
+    },
+    {
+      "name": "Hanger Tray",
+      "size": ["17*12*18"]
+    },
+    {
+      "name": "Hanger Tray",
+      "size": ["12*17*12"]
+    }
+  ],
+  "Acrylic Design": [
+    {
+      "name": "acrylic design",
+      "size": "diameter-12inches"
+    },
+    {
+      "name": "acrylic design",
+      "size": "10*10*3.75",
+      "clear-height": "3"
+    },
+    {
+      "name": "acrylic design",
+      "size": "7*10*3.75",
+      "clear-height": "3"
+    },
+    {
+      "name": "acrylic design",
+      "size": "8*8*3.75",
+      "clear-height": "3"
+    },
+    {
+      "name": "acrylic design",
+      "size": "10*10*3.75",
+      "clear-height": "3"
+    },
+    {
+      "name": "acrylic design",
+      "size": "8*8*3.75",
+      "clear-height": "3"
+    }
+  ],
+  "Baby shower favours": [
+    {
+      "name": "Baby Shower Favours",
+      "size": "8*6*3"
+    },
+    {
+      "name": "Baby Shower Favours",
+      "size": "10*7*15"
+    }
+  ],
+  "Baskets": [
+    {
+      "name": "Baskets",
+      "size": "12*12"
+    },
+    {
+      "name": "Baskets",
+      "size": "8*8"
+    },
+    {
+      "name": "Baskets",
+      "size": "10*10"
+    },
+    {
+      "name": "Baskets",
+      "size": "6*6"
+    },
+    {
+      "name": "Drawer basket with handle",
+      "size": "10*12*5.5(including drawer)"
+    },
+    {
+      "name": "Fence Basket",
+      "size": "12*12"
+    },
+    {
+      "name": "Hexagonal Basket",
+      "size": "8*8*1.35"
+    },
+    {
+      "name": "Wine Basket",
+      "size": "6*4.25*13"
+    },
+    {
+      "name": "Baskets",
+      "size": "12*15"
+    }
+  ],
+  "Birthday return favours": [
+    {
+      "name": "Pen organiser",
+      "size": "8*4*4"
+    },
+    {
+      "name": "Desk organiser",
+      "size": "12*4*4.25"
+    },
+    {
+      "name": "Art/Cutlery Organiser",
+      "size": "9*5*20.5"
+    }
+  ],
+  "Boxes": [
+    {
+      "name": "Pinewood Box Set",
+      "size": ["3*5*2.75", "4*6*3", "7*5*3.5"]
+    },
+    {
+      "name": "Wine Box",
+      "size": "4.5*14*4.25"
+    },
+    {
+      "name": "Pinewood Box",
+      "size": "9*12*4"
+    },
+    {
+      "name": "Pinewood Box",
+      "size": "4*4*2"
+    },
+    {
+      "name": "Designer Box",
+      "size": "9*12*4"
+    },
+    {
+      "name": "Jewellery Box",
+      "size": ""
+    }
+  ],
+  "Carts": [
+    {
+      "name": "Handle Cart",
+      "size": "12*8*2.6"
+    },
+    {
+      "name": "Cart",
+      "size": "12*8*2.6"
+    },
+    {
+      "name": "Cart",
+      "size": "8*10*2.6"
+    },
+    {
+      "name": "Hut Cart",
+      "size": "8*8*2"
+    }
+  ],
+  "Decor Bands": [
+    {
+      "name": "Tray with decor band",
+      "size": "12*17"
+    }
+  ],
+  "Dry fruit trays": [
+    {
+      "name": "Dry fruits tray",
+      "size": "12*12*1"
+    },
+    {
+      "name": "Dry fruits tray",
+      "size": "12*12*1"
+    },
+    {
+      "name": "Dry fruits tray",
+      "size": "8*8*1"
+    }
+  ],
+  "featured": [
+    {
+      "name": "Engine and three boggies",
+      "size": "15*10"
+    },
+    {
+      "name": "MDF Base",
+      "size": "8*8"
+    },
+    {
+      "name": "Special design",
+      "size": "12*12"
+    },
+    {
+      "name": "Wardrobe",
+      "size": ""
+    },
+    {
+      "name": "Acrylic design",
+      "size": "10*10*3.75"
+    }
+  ],
+  "Jar trays": [
+    {
+      "name": "Jar Tray",
+      "size": "6*8*2"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "11*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "12*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "6*8*3"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "9*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "9*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "6.5*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "11*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "6.5*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "11*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "9*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "11*4"
+    },
+    {
+      "name": "Jar Tray",
+      "size": "9*4"
+    },
+    {
+      "name": "Hut Hamper Tray",
+      "size": "4.25*8*3"
+    },
+    {
+      "name": "Hexa 1 Jar Basket",
+      "size": ""
+    }
+  ],
+  "Lehenga Trays": [
+    {
+      "name": "Lehenga Trays",
+      "size": "23*18"
+    },
+    {
+      "name": "MDF Base",
+      "size": "16*20"
+    },
+    {
+      "name": "Lehenga Trays",
+      "size": "24*24*30"
+    }
+  ],
+  "Multi level designs": [
+    {
+      "name": "Multi Level",
+      "size": ["14*18", "8*8"]
+    },
+    {
+      "name": "Multi Level",
+      "size": "17*12"
+    },
+    {
+      "name": "Multi Level",
+      "size": "17*12"
+    },
+    {
+      "name": "Multi Level",
+      "size": ["15*15", "12*12", "8*8"]
+    },
+    {
+      "name": "Multi Level",
+      "size": ["15*13", "13*13"]
+    },
+    {
+      "name": "Multi Level",
+      "size": "13*8"
+    },
+    {
+      "name": "Multi Level",
+      "size": ""
+    },
+    {
+      "name": "Double Tier Hexa Trays",
+      "size": ["6*6*2.6", "8*8*2.6"]
+    }
+  ],
+  "Patti Platter": [
+    {
+      "name": "Patti Platter",
+      "size": "12 diameter"
+    },
+    {
+      "name": "Patti Platter",
+      "size": "9*12"
+    }
+  ],
+  "Plain Trays": [
+    {
+      "name": "Plain tray",
+      "size": "12*17"
+    },
+    {
+      "name": "Plain tray",
+      "size": "8*8"
+    },
+    {
+      "name": "Plain tray",
+      "size": "15*15"
+    },
+    {
+      "name": "Plain tray",
+      "size": "17*12"
+    },
+    {
+      "name": "Plain tray",
+      "size": "10*10"
+    },
+    {
+      "name": "Plain tray",
+      "size": "12*12"
+    },
+    {
+      "name": "Plain tray (comes with ply base and handle cutting)",
+      "size": "12 diameter"
+    },
+    {
+      "name": "Plain tray (comes with ply base and handle cutting)",
+      "size": "10 diameter"
+    },
+    {
+      "name": "Men's gifting hamper",
+      "size": "14*14"
+    },
+    {
+      "name": "Plain Trya with Stand",
+      "size": "10*15*2"
+    }
+  ],
+  "Planters": [
+    {
+      "name": "Hexa Pine Planter",
+      "size": "10*10*3.5"
+    },
+    {
+      "name": "Planter Stand",
+      "size": "2.5 feet height"
+    },
+    {
+      "name": "Planter",
+      "size": ""
+    }
+  ],
+  "Ring/Cake Platters": [
+    {
+      "name": "Ring & Cake Platter",
+      "size": ["14*14", "8*8"]
+    },
+    {
+      "name": "Ply Base",
+      "size": "12*10"
+    },
+    {
+      "name": "Ply Base",
+      "size": "12*10"
+    }
+  ],
+  "Special Design": [
+    {
+      "name": "Special design",
+      "size": "15*13"
+    },
+    {
+      "name": "Special design",
+      "size": "12*17"
+    },
+    {
+      "name": "Special design",
+      "size": "9*12*4"
+    },
+    {
+      "name": "Special design",
+      "size": "12*12"
+    },
+    {
+      "name": "Wardrobe",
+      "size": ""
+    },
+    {
+      "name": "Merry Go Round",
+      "size": ""
+    },
+    {
+      "name": "Hut Hamper Tray",
+      "size": "4.25*8*3"
+    },
+    {
+      "name": "Bird House",
+      "size": ""
+    },
+    {
+      "name": "Krishna Jhoola",
+      "size": "5*7*2"
+    },
+    {
+      "name": "Cycle",
+      "size": "6*6*2"
+    }
+  ],
+  "Stands": [
+    {
+      "name": "Mini Stand",
+      "size": "9.5*7"
+    }
+  ],
+  "Trains": [
+    {
+      "name": "Trains",
+      "size": "6*16"
+    },
+    {
+      "name": "Train Engine and two boggies",
+      "size": "7*10"
+    },
+    {
+      "name": "Train Engine and three boggies",
+      "size": "15*10"
+    },
+    {
+      "name": "Big Train(Without Color",
+      "size": "12*17"
+    },
+    {
+      "name": "Trousseau Train",
+      "size": ""
+    },
+    {
+      "name": "Toy Train",
+      "size": ""
+    }
+  ],
+  "Trucks": [
+    {
+      "name": "Truck",
+      "size": ""
+    },
+    {
+      "name": "Jumbo Truck",
+      "size": ""
+    }
+  ],
+  "Wedding Sets": [
+    {
+      "name": "Wedding trousseau set",
+      "size": ""
+    },
+    {
+      "name": "Wedding trousseau set",
+      "size": ""
+    },
+    {
+      "name": "Wedding trousseau set(With color without decor mannequins included)",
+      "size": ""
+    },
+    {
+      "name": "Wedding trousseau set (No decor and no mannequins included)",
+      "size": ""
+    }
+  ]
+}
