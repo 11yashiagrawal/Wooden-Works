@@ -24,8 +24,8 @@ const ProductFilters: React.FC<ProductFiltersProps> = ({ onFilterChange, totalPr
     });
   };
   
-  // Filter out the current category from the list if we're on a category page
-  const filteredCategories = categories.filter(cat => cat.name !== currentCategoryId);
+  // Show all categories including the current one for filtering
+  const availableCategories = categories;
   
   return (
     <div className="mb-6 sm:mb-8">
@@ -44,11 +44,11 @@ const ProductFilters: React.FC<ProductFiltersProps> = ({ onFilterChange, totalPr
         <div className="bg-amber-50 p-4 sm:p-6 rounded-lg">
           <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">
             {/* Categories */}
-            {filteredCategories.length > 0 && (
+            {availableCategories.length > 0 && (
               <div>
                 <h4 className="font-medium text-amber-900 mb-3 text-base sm:text-lg">Categories</h4>
                 <div className="space-y-3 max-h-48 overflow-y-auto">
-                  {filteredCategories.map(category => (
+                  {availableCategories.map(category => (
                     <label key={category.name} className="flex items-center cursor-pointer py-1">
                       <input 
                         type="checkbox" 
@@ -56,7 +56,14 @@ const ProductFilters: React.FC<ProductFiltersProps> = ({ onFilterChange, totalPr
                         onChange={() => handleCategoryChange(category.name)}
                         className="rounded border-amber-300 text-amber-600 focus:ring-amber-500 w-4 h-4"
                       />
-                      <span className="ml-3 text-amber-800 text-sm sm:text-base">{category.name.charAt(0).toUpperCase() + category.name.slice(1)}</span>
+                      <span className="ml-3 text-amber-800 text-sm sm:text-base">
+                        {category.name.charAt(0).toUpperCase() + category.name.slice(1)}
+                        {category.name === currentCategoryId && (
+                          <span className="ml-2 text-xs text-amber-600 bg-amber-100 px-2 py-1 rounded">
+                            Current
+                          </span>
+                        )}
+                      </span>
                     </label>
                   ))}
                 </div>

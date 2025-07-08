@@ -13,17 +13,17 @@ const CategoryPage: React.FC = () => {
   const { categories } = useProductContext();
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
-
   // Find the category data using slugify and trim
   const categoryData = categories.find(cat => 
     slugify(cat.name.trim()) === categoryId?.trim()
   );
 
   // Map ProductItem[] to Product[] for ProductGrid
-  const products: Product[] = useMemo(() => {
+  const allProducts: Product[] = useMemo(() => {
     if (!categoryData) return [];
 
-    return categoryData.products.map((item, index) => ({
+    // Start with products from the current category
+    const currentCategoryProducts = categoryData.products.map((item, index) => ({
       id: `${slugify(categoryData.name)}-${index}`,
       name: item.name.charAt(0).toUpperCase() + item.name.slice(1),
       category: categoryData.name,
@@ -37,15 +37,44 @@ const CategoryPage: React.FC = () => {
       isOnSale: false,
       isFeatured: false,
     }));
-  }, [categoryData]);
 
-  // Filter products based on selected categories
-  const filteredProducts = useMemo(() => {
+    // If no additional categories are selected, return only current category products
     if (selectedCategories.length === 0) {
-      return products;
+      return currentCategoryProducts;
     }
-    return products.filter(product => selectedCategories.includes(product.category));
-  }, [products, selectedCategories]);
+
+    // Get products from selected categories (including current category if it's selected)
+    const selectedCategoryProducts: Product[] = [];
+    
+    // Always include current category products
+    selectedCategoryProducts.push(...currentCategoryProducts);
+    
+    // Add products from other selected categories
+    selectedCategories.forEach(selectedCategoryName => {
+      if (selectedCategoryName !== categoryData.name) {
+        const selectedCategory = categories.find(cat => cat.name === selectedCategoryName);
+        if (selectedCategory) {
+          const categoryProducts = selectedCategory.products.map((item, index) => ({
+            id: `${slugify(selectedCategory.name)}-${index}`,
+            name: item.name.charAt(0).toUpperCase() + item.name.slice(1),
+            category: selectedCategory.name,
+            categoryId: selectedCategory.name,
+            price: 0,
+            imageUrl: getProductImageUrl(selectedCategory.name, index),
+            description: item.name.charAt(0).toUpperCase() + item.name.slice(1),
+            shortDescription: item.name.charAt(0).toUpperCase() + item.name.slice(1),
+            subheading: item.size ? (Array.isArray(item.size) ? item.size.join(', ') : item.size) : '',
+            isNewArrival: false,
+            isOnSale: false,
+            isFeatured: false,
+          }));
+          selectedCategoryProducts.push(...categoryProducts);
+        }
+      }
+    });
+
+    return selectedCategoryProducts;
+  }, [categoryData, categories, selectedCategories]);
 
   const handleFilterChange = (filters: { categories?: string[] }) => {
     setSelectedCategories(filters.categories || []);
@@ -81,11 +110,11 @@ const CategoryPage: React.FC = () => {
 
         <ProductFilters
           onFilterChange={handleFilterChange}
-          totalProducts={filteredProducts.length}
+          totalProducts={allProducts.length}
           currentCategoryId={categoryData.name}
         />
 
-        <ProductGrid products={filteredProducts} />
+        <ProductGrid products={allProducts} />
       </motion.div>
     </div>
   );
