@@ -196,7 +196,7 @@ export const getFolderName = (categoryName: string): string => {
 export const getProductImageUrl = (categoryName: string, productIndex: number): string => {
   if (imageFiles[categoryName] && imageFiles[categoryName][productIndex]) {
     const folderName = getFolderName(categoryName);
-    return `/public/${folderName}/${imageFiles[categoryName][productIndex]}`;
+    return `/${folderName}/${imageFiles[categoryName][productIndex]}`;
   }
   return '';
 };
@@ -205,7 +205,7 @@ export const getProductImageUrl = (categoryName: string, productIndex: number): 
 export const getCategoryImageUrl = (categoryName: string): string => {
   if (imageFiles[categoryName] && imageFiles[categoryName][0]) {
     const folderName = getFolderName(categoryName);
-    return `/public/${folderName}/${imageFiles[categoryName][0]}`;
+    return `/${folderName}/${imageFiles[categoryName][0]}`;
   }
   return '';
 }; 
